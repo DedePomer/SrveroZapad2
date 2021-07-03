@@ -37,7 +37,7 @@ namespace Зкз2021
         }
         public int[] ZapolnVectora(int[] vector, string s)
         {
-            string[] Smas = s.Split(' ');
+            string[] Smas = s.Split(';');
             for (int i = 0; i < vector.Length; i++)
             {
                 vector[i] = Convert.ToInt32(Smas[i]);
