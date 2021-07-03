@@ -31,7 +31,7 @@ namespace Северо_запад
             int sumM = 0;
             int sumN = 0;
             int k = 0;
-            for (int i = 0; i < Data.Length; i++)
+            for (int i = 0; i < Data.Length; i++)//Проверка файла
             {
                 Nlenght = Data[i].Split(';');
                 for (int j = 0; j < Nlenght.Length; j++)
