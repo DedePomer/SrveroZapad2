@@ -1,0 +1,22 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Зкз2021;
+
+namespace UnitTestProject2
+{
+    [TestClass]
+    public class UnitTest1
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            string s = "1;2;3";
+            int[] v = new int[3];
+            int[] expected = new int[] { 1, 2, 3 };
+
+            Class1 P = new Class1();
+            int[] actual = P.ZapolnVectora(v, s);
+            CollectionAssert.AreEqual(expected, actual);
+
+        }
+    }
+}
