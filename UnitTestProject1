@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Зкз2021;
+using Зкз2021; //Не знаю как юнит тесты добавить
 
 namespace UnitTestProject2
 {
